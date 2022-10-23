@@ -1,1 +1,1 @@
-push test! only
+push test!
