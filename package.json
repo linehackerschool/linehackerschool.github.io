@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "gitbook-plugin-fontsettings": "^2.0.0",
+    "gitbook-plugin-insert-logo": "^0.1.5",
     "gitbook-plugin-insert-logo-link-style": "^1.0.3"
   }
 }
