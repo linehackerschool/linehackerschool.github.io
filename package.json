@@ -1,0 +1,20 @@
+{
+  "name": "linehackerschool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "honkit": "^4.0.4"
+  },
+  "dependencies": {
+    "gitbook-plugin-fontsettings": "^2.0.0",
+    "gitbook-plugin-insert-logo": "^0.1.5",
+    "gitbook-plugin-insert-logo-link-style": "^1.0.3"
+  }
+}
