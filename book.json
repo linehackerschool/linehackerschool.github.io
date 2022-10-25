@@ -1,0 +1,17 @@
+{
+    "root": "./src",
+    "title": "linehackerschool",
+    "description": "new",
+    "language":"ja",
+    "plugins":[
+	    "insert-logo-link-style"
+    ],
+    "pluginsConfig":{
+        "insert-logo-link-style":{
+            "src":"/assets/logo.png",
+            "style":"background:none;",
+            "link":"https://linehackerschool.github.io/",
+            "target":"_blank"
+        }
+    }
+}
