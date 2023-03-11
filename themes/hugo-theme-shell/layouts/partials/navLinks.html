@@ -1,0 +1,11 @@
+<!-- Print the "Home" link and text for link to previous directory(assumed to be given by "navbar.html") 
+-->
+
+<span>
+    <a href="/">root</a>
+    <span>&#8192;|&#8192;</span>
+    <a href="{{ "index" | relURL }}">Index</a>
+    <a href="{{ "articles" | relURL }}">Articles</a>
+    <a href="{{ "members" | relURL }}">Members</a>
+    <a href="{{ "apps" | relURL }}">Apps</a>
+</span>

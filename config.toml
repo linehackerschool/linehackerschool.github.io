@@ -1,0 +1,74 @@
+theme = "hugo-theme-shell"
+baseURI = "https://linehackerschool.github.io"
+publishDir = "docs"
+
+[Params]
+  # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
+  description = """
+  ハッカースクールは初心者から上級者まで誰でも参加できる匿名型チャットです。
+  現在サーバーはLINEオープンチャットととmatrix.orgで運営されており、ハッキングとセキュリティに関連する話題の共有を容易に行うことが可能です。
+  LINEオープンチャットについては、チャット人数はサービス開始から数ヶ月で著しく増加し、今では100人を超える規模のルームに成長しました。
+  """
+  [Params.Terminal]
+  # Note: color scheme
+  # Note: You can choose between
+  # Note: or
+  # Note: gogh theme: https://mayccoll.github.io/Gogh/
+  scheme = "shell-retro"
+
+  # Note: in terminal
+  # [userName]@[pcName]:~/$ cd [workDir]
+  # [userName]@[pcName]:~/[workDir]$ cat [profile]
+  #
+  # [description]
+  #
+  # Note: if you set Params.Tree > use = true
+  # [userName]@[pcName]:~/[workDir]$ tree ./[folderName]/
+  # ./[folderName]/
+  # ...
+  # Note: result of the tree command
+  userName = "hacker"
+  pcName = "hackerschool"
+  workDir = "ourdir"
+  profile = "profile.txt"
+
+  # Note: speed at which text is displayed on the terminal
+  # Note: if set to 0, typing animation will be disabled
+  # Note:
+  # Note: if you want to enable Mathjax, you need to set it to 0
+  # Note: and set "math: true" at front matter in your Markdown file
+  ps1Delay = 0 # prompt speed : [userName]@[pcName]:~/$ , [userName]@[pcName]:~/[workDir]$
+  stdoutDelay = 0 # stdout speed : [description] , files in Params.Tree
+  commandDelay = 30 # command speed : cd [workDir] , cat [profile] , tree ./[folderName]/
+
+  # terminalDelay = 20 : deprecated
+
+  # Note: speed at which text is displayed on the activity pages
+  # Note: if set to 0, typing animation will be disabled
+  # Note: 
+  # Note: if you want to enable Mathjax, you need to set it to 0
+  # Note: and set "math: true" at front matter in your Markdown file
+  titleDelay = 0 # title speed : "title" in front matter
+  contentDelay = 0 # content speed : content in .md file
+
+  # activityDelay = 5 : deprecated
+
+  description = """
+  Hello! This is one of HackerSchool.
+  Here is our site.
+  """
+
+  # Note: If you want to use a Markdown file, you can use the following
+  # description = "/description.md"
+  # Note: and put the description.md in /content/description.md
+
+  [Params.Tree]
+  use = true
+  folderName = "our_activity"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["Index", "index/index.md"],
+    ["Articles", "article/index.md"],
+    ["Members", "members/index.md"],
+    ["Apps", "apps/index.md"],
+  ]
