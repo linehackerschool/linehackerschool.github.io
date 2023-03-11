@@ -54,7 +54,7 @@ publishDir = "docs"
   # activityDelay = 5 : deprecated
 
   description = """
-  Hello! This is one of HackerSchool.
+  Hello! This is HackerSchool.
   Here is our site.
   """
 
