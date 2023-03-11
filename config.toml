@@ -67,7 +67,7 @@ publishDir = "docs"
   folderName = "our_activity"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["Index", "index/index.md"],
+    ["Home", "home.md"],
     ["Articles", "article/index.md"],
     ["Members", "members/index.md"],
     ["Apps", "apps/index.md"],
